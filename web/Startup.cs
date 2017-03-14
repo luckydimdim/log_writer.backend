@@ -1,15 +1,17 @@
-﻿using System;
-using Autofac;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Nancy.Owin;
-using NLog.Web;
 using Microsoft.Extensions.Logging;
+using Nancy.Owin;
 using NLog.Extensions.Logging;
+using NLog.Web;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace log_writer.backend
+namespace web
 {
     public class Startup
     {

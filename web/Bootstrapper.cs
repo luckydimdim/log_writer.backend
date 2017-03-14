@@ -1,14 +1,14 @@
 ﻿using System;
 using Autofac;
-using error_handler.backend.Web;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Nancy;
 using Nancy.Bootstrapper;
 using Nancy.Bootstrappers.Autofac;
+using Microsoft.Extensions.Logging;
+using error_handler.backend.Web;
 using Nancy.Responses.Negotiation;
 
-namespace log_writer.backend
+namespace web
 {
     public class Bootstrapper : AutofacNancyBootstrapper
     {

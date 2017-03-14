@@ -1,7 +1,8 @@
-﻿using System.IO;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
+using System;
+using System.IO;
 
-namespace log_writer.backend
+namespace web
 {
     public class Program
     {
